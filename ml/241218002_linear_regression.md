@@ -13,10 +13,11 @@ $$
 
 여기서 **오차**는 목표값과 출력값 간 **차이의 제곱**으로 정의되는, **MSE(Mean Squared Error) 손실함수**를 사용
 
-$$  
-Loss\_{MSE} : \\mathbb{R}, \\mathbb{R} \\to \\mathbb{R} \\  
-\\phantom{Loss\_{MSE}} \\quad \\quad \\quad\\ y, \\hat{y} \\mapsto (y - \\hat{y})^2  
 $$
+Loss_{MSE} : \mathbb{R}, \mathbb{R} \to \mathbb{R} \\
+\quad\quad\quad y, \hat{y} \mapsto (y - \hat{y})^2
+$$
+
 
 ### 최적화 문제로서의 선형회귀
 
